@@ -12,7 +12,7 @@ import {
 } from "react-router-dom" 
 import {createRoute} from 'react-dom/client'
 import Home from './Home';
-import BookingScree from './BookingScree';
+import BookingScreen from './BookingScreen';
 
 
 
@@ -24,7 +24,7 @@ function App() {
 
   },{
     path:"/booking",
-    element:<BookingScree/>
+    element:<BookingScreen />
   }
 
 ])
